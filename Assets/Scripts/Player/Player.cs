@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(BallMotor))]
-public class PlayerBall : MonoBehaviour
+public class Player : MonoBehaviour
 {
     BallMotor _ballMotor;
 
