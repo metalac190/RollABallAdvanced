@@ -21,7 +21,5 @@ public class BallMotor : MonoBehaviour {
         {
             _rb.AddForce(movement * _maxSpeed);
         }
-
-        Debug.Log(_rb.velocity.magnitude);
     }
 }
